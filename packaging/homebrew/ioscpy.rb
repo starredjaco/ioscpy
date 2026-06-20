@@ -2,7 +2,7 @@ class Ioscpy < Formula
   desc "Mirror and control a jailbroken iPhone from macOS over USB"
   homepage "https://lautarovculic.com"
   url "https://github.com/lautarovculic/ioscpy/archive/refs/tags/v0.1.0.tar.gz"
-  sha256 "REPLACE_WITH_TARBALL_SHA256"
+  sha256 "f774055f2f555f9de95b1e9ed0511ca8ffee8767372c873aa94508b83ee330b2"
   license "MIT"
   head "https://github.com/lautarovculic/ioscpy.git", branch: "main"
 
