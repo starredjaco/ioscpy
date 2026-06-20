@@ -83,4 +83,4 @@ It is not for Linux or Windows, and not for iPhones that are not jailbroken.
 
 ## Author
 
-[Lautaro Villarreal Culic'](https://lautarovculic.com). MIT licensed.
+[Lautaro Villarreal Culic'](https://lautarovculic.com) - MIT licensed.
