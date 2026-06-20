@@ -6,12 +6,27 @@ With one device attached, that is all you need. It connects on its own.
 
 ## Install
 
+There are two sides. The Mac app runs the mirror, the iPhone package lets the
+phone be controlled. Install both.
+
+On the Mac, with Homebrew:
+
 ```bash
-brew tap lautarovculic/ioscpy
+brew tap lautarovculic/ioscpy   # the Mac app
 brew trust lautarovculic/ioscpy
 brew install ioscpy
 ioscpy --version
 ```
+
+On the jailbroken iPhone, add this repository in Sileo or Zebra, then install
+ioscpy from it and respring:
+
+```text
+https://lautarovculic.github.io/ioscpy-repo/
+```
+
+The repository carries both rootless and rootful builds, and the package manager
+picks the one that matches the jailbreak.
 
 ```bash
 ioscpy --device <UDID>   # pick a device when several are attached
